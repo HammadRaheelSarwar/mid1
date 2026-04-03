@@ -1,0 +1,7 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+my_agent/.env

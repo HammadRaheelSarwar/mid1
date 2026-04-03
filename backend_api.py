@@ -14,7 +14,7 @@ WEB_DIR = BASE_DIR / "web"
 APP_NAME = "my_agent_ui"
 
 # Load agent credentials before importing the agent module.
-load_dotenv(BASE_DIR / "my_agent" / ".env", override=True)
+load_dotenv(BASE_DIR / "my_agent" / ".env", override=False)
 
 from my_agent.agent import root_agent
 
